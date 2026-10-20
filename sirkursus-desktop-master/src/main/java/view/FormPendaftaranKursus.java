@@ -58,8 +58,6 @@ public class FormPendaftaranKursus extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
-
         jLabel2.setBackground(new java.awt.Color(75, 75, 70));
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(75, 75, 70));
@@ -87,7 +85,7 @@ public class FormPendaftaranKursus extends javax.swing.JFrame {
 
         btnResetForm.setBackground(new java.awt.Color(227, 227, 224));
         btnResetForm.setForeground(new java.awt.Color(75, 75, 70));
-        btnResetForm.setText("Resest");
+        btnResetForm.setText("Reset");
         btnResetForm.addActionListener(this::btnResetFormActionPerformed);
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -124,7 +122,7 @@ public class FormPendaftaranKursus extends javax.swing.JFrame {
         cbAksesRekaman.setText("Akses Rekaman");
         cbAksesRekaman.addActionListener(this::cbAksesRekamanActionPerformed);
 
-        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel2.setBackground(new java.awt.Color(102, 102, 102));
         jPanel2.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
@@ -169,7 +167,7 @@ public class FormPendaftaranKursus extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(rbMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(cbModulCetak, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(cbModulCetak))
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(42, 42, 42)
